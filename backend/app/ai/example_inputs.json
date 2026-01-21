@@ -1,0 +1,18 @@
+[
+  {
+    "name": "clear_single_task",
+    "input": "Finish writing unit tests for subscription repository"
+  },
+  {
+    "name": "vague_input",
+    "input": "I want to improve my life"
+  },
+  {
+    "name": "partial_input",
+    "input": "Prepare for backend interview, not sure which topics"
+  },
+  {
+    "name": "not_a_task",
+    "input": "Hello there"
+  }
+]

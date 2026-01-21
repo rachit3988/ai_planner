@@ -1,0 +1,44 @@
+{
+  "clear_single_task": {
+    "tasks": [
+      {
+        "title": "Write unit tests for subscription repository",
+        "description": "Implement and validate unit tests covering core logic of the subscription repository.",
+        "estimated_minutes": 90,
+        "confidence": 0.70
+      }
+    ],
+    "questions": [],
+    "notes": ""
+  },
+  "vague_input": {
+    "tasks": [],
+    "questions": [
+      "What specific area of your life would you like to improve?",
+      "Is this related to work, health, learning, or something else?"
+    ],
+    "notes": ""
+  },
+  "partial_input": {
+    "tasks": [
+      {
+        "title": "Prepare for backend interview",
+        "description": "Study and revise backend development concepts relevant for interviews.",
+        "estimated_minutes": 120,
+        "confidence": 0.55
+      }
+    ],
+    "questions": [
+      "Which backend language or framework should this focus on?",
+      "Do you have a target company or role level?"
+    ],
+    "notes": ""
+  },
+  "not_a_task": {
+    "tasks": [],
+    "questions": [
+      "What would you like to plan or accomplish?"
+    ],
+    "notes": ""
+  }
+}
