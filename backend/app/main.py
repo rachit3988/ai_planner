@@ -1,11 +1,8 @@
-import logging
 from fastapi import FastAPI
+from api.chat import router as chat_router
+from api.tasks import router as task_router
 
-logging.basicConfig(level=logging.INFO)
+app = FastAPI(title="AI Planner API")
 
-app = FastAPI()
-
-@app.get("/health")
-def health_check():
-    logging.info("Health check called")
-    return {"status": "ok"}
+app.include_router(chat_router)
+app.include_router(task_router)
