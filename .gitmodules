@@ -1,0 +1,9 @@
+[submodule "ai_planner_flutter_app"]
+	path = ai_planner_flutter_app
+	url = https://github.com/rachit3988/ai_planner_flutter_app
+[submodule "ai-planner-ai"]
+	path = ai-planner-ai
+	url = https://github.com/rachit3988/ai-planner-ai
+[submodule "ai-planner-go-backend"]
+	path = ai-planner-go-backend
+	url = https://github.com/rachit3988/ai-planner-go-backend
